@@ -97,6 +97,43 @@ body {
     font-size: 1rem;
 }
 
+/* Estilização dos botões das redes sociais */
+.apresentacao__links__icones {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botao-rede {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+}
+
+.botao-rede img {
+    width: 24px;
+    height: 24px;
+}
+
+.botao-rede:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+/* Botões gerais */
 button {
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
